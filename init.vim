@@ -15,4 +15,4 @@ set nohlsearch
 set nowrap
 let mapleader=' '
 
-source $NVIMCONF/mappings.vim
+source $NVIMCONF/map.vim
