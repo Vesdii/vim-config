@@ -1,1 +1,1 @@
-source $NVIM_CONFIG/c.ft.vim
+source $NVIMCONF/c.ft.vim
