@@ -12,6 +12,7 @@ inoremap <C-K>	<Esc>:m .-2<CR>==gi
 vnoremap <C-J>	:m '>+1<CR>gv=gv
 vnoremap <C-K>	:m '<-2<CR>gv=gv
 
+" Make
 nnoremap <Leader>M	:make<CR>
 
 " Break into two lines
