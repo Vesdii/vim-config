@@ -19,9 +19,9 @@ nnoremap <Leader>M	:make<CR>
 nnoremap <Leader>K	mti<CR><Esc>`t
 
 " Save
-nnoremap ZZ	:w<CR>
+"nnoremap ZZ	:w<CR>
 " Save & quit
-nnoremap ZX	:x<CR>
+"nnoremap ZX	:x<CR>
 
 "=== Substitute
 " Sub inline

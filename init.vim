@@ -13,6 +13,5 @@ set tabstop=4
 set shiftwidth=0
 set nohlsearch
 set nowrap
-let mapleader=' '
 
 source $NVIMCONF/map.vim
