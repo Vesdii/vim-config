@@ -17,9 +17,7 @@ inoremap {<Space>	{  }<Left><Left>
 inoremap {<CR>	{<CR><Tab><BS><CR>}<Up><End>
 inoremap {;	{<CR><Tab><BS><CR>};<Up><End>
 " Convert to indented block
-vnoremap <Leader>b	>'<O{<Esc>'>o}<Esc>%
-" Convert to OTB block
-vnoremap <Leader>bo	<Esc>'<A {<Esc>'>o}<Esc>
+vnoremap <Leader>bb	>'<O{<Esc>'>o}<Esc>%
 
 " Append semicolon
 nnoremap <Leader>;	mtA;<Esc>`t
