@@ -1,6 +1,6 @@
 " Source vim file for specific filetype
 function Load_ft_rc()
-	let ftrc=$NVIMCONF . '/' . &filetype . '.ft.vim'
+	let ftrc=$HOME . '/.config/nvim/' . &filetype . '.ft.vim'
 	if !empty(glob(ftrc))
 		exe 'source ' . ftrc
 	endif
@@ -14,4 +14,4 @@ set shiftwidth=0
 set nohlsearch
 set nowrap
 
-source $NVIMCONF/map.vim
+source $HOME/.config/nvim/map.vim
